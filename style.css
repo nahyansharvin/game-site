@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Cera Pro";
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;   
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar span{
+    font-family: "Cera Pro";
+    font-size: 14px;
+    padding: 10px;
+    color: #4f154b;
+}
+.logo{
+    width: 40px;
+    margin: 3px;
+}
+.section-1{
+    background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+    display: flex;
+    padding-top: 15%;
+    padding-left: 15%;
+  
+    
+}
+.search-box input{
+    outline: none;
+    border: none;
+    
+}
+.search-box{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 9px;
+    border-color: #a6a6a6;
+}
+.search-box i{
+    padding-right: 5px;
+    color: ##737373;
+}
+.sec-1-text{
+    color: white;
+    max-width: 380px;
+}
+.sec-1-text h1{
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 57px;
+}
+.sec-1-text h2{
+    font-size: 29px;
+}
+.sec-1-text p{
+    font-size: 12px;
+}
