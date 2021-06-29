@@ -1,0 +1,14 @@
+Blue
+651AD8
+
+Yellow
+FFF000
+
+Violet
+B45CE3
+
+Green
+10DC28
+
+Font
+Cera Pro
