@@ -20,19 +20,19 @@ a{
 }
 .nav-bar span{
     font-family: "Cera Pro";
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px;
     color: #4f154b;
 }
 .logo{
-    width: 40px;
+    width: 50px;
     margin: 3px;
 }
 .section-1{
     background-image: url(./images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45em;
+    height: calc(100% - 45px);
     display: flex;
     padding-top: 15%;
     padding-left: 15%;
@@ -70,4 +70,56 @@ a{
 }
 .sec-1-text p{
     font-size: 12px;
+}
+
+.section-2{
+    margin-left: 15%;
+}
+.sale-box-1{
+    width: 415px;
+    height: 255px;
+    border-radius: 35px;
+    padding: 25px;
+    background-color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+}
+.sale-box-1 img{
+    position:absolute;
+    top:8px;
+    right: 16px;
+    width: 50%;
+}
+.sale-box-1-violet{
+    position: absolute;
+    width: 45%;
+    height: 85%;
+    display:flex;
+    padding:7%;
+    justify-content:center;
+    flex-direction:column;
+    background-color: rgba(149,118,212,0.8);
+    border-radius: 28px;
+    color: white;
+    z-index: 3;
+    
+}
+.sale-box-1-violet p{
+    font-size: 9.5px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin: 19px 0;
+}
+.trailer-button{
+    font-size: 10px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    height: 25px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
 }
