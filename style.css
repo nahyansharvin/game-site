@@ -79,11 +79,31 @@ a{
 
 .section-2{
     margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.scroll-section{
+    display: flex;
 }
 .sale-box-scroll{
     display: flex;
     overflow: auto;
-
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.scroll-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -85px;
+    padding: 25px;
+}
+.scroll-btn{
+    font-size: 35px;
+    background: linear-gradient(135deg, #B45CE3, #651AD8 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .sale-box-1{
     width: 415px;
@@ -145,32 +165,64 @@ a{
     display: flex;
 }
 .sale-grid-box{
+    background-image: url(./images/GameImages/call-of-duty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     display: flex;
-    width: 200px;
-    height: 200px;
+    flex-direction: column;
+    width: 230px;
+    height: 230px;
     border-radius: 10px;
-    background-color: teal;
+    padding: 20px;
     color: white;
     overflow: hidden;
+    justify-content: flex-end;
 }
-.sale-grid-box img{
-    position: absolute;
-    height: 100%;
-    position: absolute;
+.sale-grid-box h4{
+    font-size: 13.5px;
+    font-weight: 800;
+    line-height: 10.6px;
+    margin: 9px 6px;
+}
+.grid-prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .price-button{
-    position: absolute;
+    
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     color: white;
-    width: 75px;
-    height: 23px;
+    width: 82px;
+    height: 28px;
     padding: 6px;
     border-radius: 20px;
     background: linear-gradient(135deg, #B45CE3, #651AD8);
     z-index: 1;
+}
+.grid-discount{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0cde23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+.grid-discount::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #0cde23;
+    opacity: .5;
+    z-index: -1;
 }
