@@ -11,7 +11,8 @@ body{
     width: 100vw;
 }
 a{
-    text-decoration: none;   
+    text-decoration: none;
+    color: white;  
 }
 .nav-bar{
     display: flex;
@@ -78,7 +79,7 @@ a{
 }
 
 .section-2{
-    margin-left: 10%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
 }
@@ -158,11 +159,16 @@ a{
 
 
 .section-3{
-    margin: 10% 0 0 10%;
+    margin: 9% 15%;
+    display: flex;
+    flex-direction: column;
 }
 .sale-grid{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    justify-content: center;
 }
 .sale-grid-box{
     background-image: url(./images/GameImages/call-of-duty.jpg);
@@ -171,17 +177,51 @@ a{
     display: flex;
     flex-direction: column;
     width: 230px;
-    height: 230px;
+    height: 245px;
     border-radius: 10px;
     padding: 20px;
+    margin: 0 25px 25px 0;
     color: white;
     overflow: hidden;
     justify-content: flex-end;
 }
+.sale-grid-box:nth-child(2){
+    background-image: url(./images/GameImages/fifa\ 20.jpg);
+}
+.sale-grid-box:nth-child(3){
+    background-image: url(./images/GameImages/Watch-Dogs-Legion.jpg);
+}
+.sale-grid-box:nth-child(4){
+    background-image: url(./images/GameImages/battleground-mobile-india.jpeg);
+}
+.sale-grid-box:nth-child(5){
+    background-image: url(./images/GameImages/Avengers.jpg);
+}
+.sale-grid-box:nth-child(6){
+    background-image: url(./images/GameImages/wasteland\ 3.jpg);
+}
+.sale-grid-box:nth-child(7){
+    background-image: url(./images/GameImages/mount&blade\ ii.jpg);
+}
+.sale-grid-box:nth-child(8){
+    background-image: url(./images/GameImages/biomutant.jpg);
+}
+.sale-grid-box:nth-child(9){
+    background-image: url(./images/GameImages/ghost\ of\ tsushima.jpg);
+}
+.sale-grid-box:nth-child(10){
+    background-image: url(./images/GameImages/yakuza.jpg);
+}
+.sale-grid-box:nth-child(11){
+    background-image: url(./images/GameImages/Halo-Infinite.jpg);
+}
+.sale-grid-box:nth-child(12){
+    background-image: url(./images/GameImages/resident-evil-resistance-review_nzqd.jpg);
+}
 .sale-grid-box h4{
     font-size: 13.5px;
     font-weight: 800;
-    line-height: 10.6px;
+    line-height: 13.6px;
     margin: 9px 6px;
 }
 .grid-prices{
@@ -225,4 +265,63 @@ a{
     background-color: #0cde23;
     opacity: .5;
     z-index: -1;
+}
+.view-more-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(95deg, #B45CE3, #651AD8 );
+    color: white;
+    width: 160px;
+    height: 28px;
+    border-radius: 20px;
+}
+.section-4{
+    margin: 8% 15%;
+    display: flex;
+    align-items: center;
+}
+.sec-4-img{
+    width: 50%;
+}
+.sec-4-image{
+    position: relative;
+    width: 100%;
+}
+.sec-4-img-bg{
+    position: absolute;
+    z-index: -1;
+    width: 92%;
+    transform: rotate(215deg);
+    left: 35px;
+    top: 20px;
+
+}
+.sec-4-text{
+    color: rgb(53, 52, 52);
+    max-width: 55%;
+    position: relative;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+.sec-4-text h1{
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 57px;
+}
+.sec-4-text h2{
+    font-size: 29px;
+}
+.sec-4-text p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 18px 0;
+}
+.sec-4-purple-bg{
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    right: -80px;
+    transform: rotate(181deg);
 }
