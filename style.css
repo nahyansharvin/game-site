@@ -19,13 +19,13 @@ a{
     justify-content: space-around;
 }
 .nav-bar span{
-    font-family: "Cera Pro";
+    font-weight: 500;
     font-size: 12px;
     padding: 10px;
     color: #4f154b;
 }
 .logo{
-    width: 50px;
+    width: 70px;
     margin: 3px;
 }
 .section-1{
@@ -42,7 +42,8 @@ a{
 .search-box input{
     outline: none;
     border: none;
-    
+    width: 90%;
+    transform: translateY(-2px);
 }
 .search-box{
     border-style: solid;
@@ -51,10 +52,14 @@ a{
     padding: 3px;
     padding-left: 9px;
     border-color: #a6a6a6;
+    width: 22.5%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .search-box i{
     padding-right: 5px;
-    color: ##737373;
+    color: #4e4e4e;
 }
 .sec-1-text{
     color: white;
@@ -73,18 +78,25 @@ a{
 }
 
 .section-2{
-    margin-left: 15%;
+    margin-left: 10%;
+}
+.sale-box-scroll{
+    display: flex;
+    overflow: auto;
+
 }
 .sale-box-1{
     width: 415px;
     height: 255px;
     border-radius: 35px;
     padding: 25px;
+    margin-right: 40px;
     background-color: #e8e8e8;
     display: flex;
     align-items: center;
     overflow: hidden;
     position:relative;
+    flex-shrink: 0;
 }
 .sale-box-1 img{
     position:absolute;
@@ -122,4 +134,43 @@ a{
     display:flex;
     align-items: center;
     justify-content:space-between;
+}
+
+
+.section-3{
+    margin: 10% 0 0 10%;
+}
+.sale-grid{
+    width: 100%;
+    display: flex;
+}
+.sale-grid-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    overflow: hidden;
+}
+.sale-grid-box img{
+    position: absolute;
+    height: 100%;
+    position: absolute;
+}
+.price-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 75px;
+    height: 23px;
+    padding: 6px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #B45CE3, #651AD8);
+    z-index: 1;
 }
