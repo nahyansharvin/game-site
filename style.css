@@ -21,10 +21,6 @@ a{
     justify-content: space-around;
 }
 .nav-bar span{
-<<<<<<< HEAD
-    font-family: "Cera Pro";
-=======
->>>>>>> sale-grid
     font-weight: 500;
     font-size: 12px;
     padding: 10px;
@@ -110,11 +106,6 @@ a{
     background: linear-gradient(135deg, #B45CE3, #651AD8 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.sale-box-scroll{
-    display: flex;
-    overflow: auto;
-
 }
 .sale-box-1{
     width: 415px;
