@@ -7,6 +7,10 @@
     font-family: "Cera Pro";
     scroll-behavior: smooth;
 }
+@font-face {
+    font-family: "Cera Pro";
+    src: url(./Font/CeraPro/Cera\ Pro\ Medium.otf);
+}
 body{
     height: 100vh;
     width: 100vw;
