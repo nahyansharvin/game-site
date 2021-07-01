@@ -12,9 +12,9 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;  
 }
 .nav-bar{
+    padding: 0 10%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -146,6 +146,9 @@ a{
     font-weight: 300;
     margin: 19px 0;
 }
+.sale-box-1-violet a{
+    color: white;
+}
 .trailer-button{
     font-size: 10px;
     border: solid;
@@ -156,7 +159,6 @@ a{
     align-items: center;
     justify-content:space-between;
 }
-
 
 .section-3{
     margin: 9% 15%;
@@ -324,4 +326,128 @@ a{
     top: -40px;
     right: -80px;
     transform: rotate(181deg);
+}
+.review-section{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.review-scroll-section{
+    display: flex;
+}
+.review-scroll{
+    display: flex;
+}
+.review-scroll-box{
+    width: 415px;
+    height: 200px;
+    border-radius: 35px;
+    background-color: rgba(232, 232, 232, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 38px;
+    padding-top: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.news-section{
+    margin: 7% 15%;
+}
+.news-scroll{
+    width: 100%;
+    height: 500px;
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.news-box-big{
+    background-color: rgba(232, 232, 232, 1);
+    width: 47%;
+    height: 100%;
+    border-radius: 15px;
+}
+.news-box-sec-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-box-small{
+    background-color: rgba(232, 232, 232, 1);
+    width: 100%;
+    height: 47.5%;
+    border-radius: 15px;
+}
+.section-7{
+    background-image: url(./images/background_bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bottom-image{
+    overflow: hidden;
+    height: 92%;
+    margin-right: -45px;
+    margin-left: -55px;
+}
+.bottom-image img{
+   height: 102%;
+}
+.bottom-trailer-section{
+    width: 28%;
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom-trailer-image{
+    background-image: url(./images/GameImages/fortnite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 46%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-trailer-text{
+    color: white;
+}
+.bottom-trailer-text h3{
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: 800;
+    padding: 4% 0;
+}
+.footer{
+    height: 75px;
+    width: 100%;
+    padding: 0 10%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer span{
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+}
+.footer p{
+    color: white;
+    font-size: .6em;
+}
+.social-media{
+    font-size: 1.5em;
+    letter-spacing: .2em;
+}
+.social-media a{
+    color: #7f7f7f;
 }
