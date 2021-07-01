@@ -107,6 +107,11 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.sale-box-scroll{
+    display: flex;
+    overflow: auto;
+
+}
 .sale-box-1{
     width: 415px;
     height: 255px;
@@ -338,7 +343,9 @@ a{
 }
 .review-scroll{
     display: flex;
+    align-items: flex-end;
     overflow: auto;
+    height: 233px;
 }
 .review-scroll-box{
     width: 415px;
@@ -456,6 +463,8 @@ a{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 .bottom-image{
     overflow: hidden;
@@ -493,6 +502,13 @@ a{
     font-size: .9em;
     font-weight: 800;
     padding: 4% 0;
+}
+.sec-7-violet-front{
+    position: absolute;
+    width: 510px;
+    opacity: .4;
+    left: 30px;
+    bottom: -21px;
 }
 .footer{
     height: 75px;
